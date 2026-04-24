@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🍽️ Our Menu</h1>
+
+    <div class="buttons">
+        <button onclick="filterMenu('all')">All</button>
+        <button onclick="filterMenu('veg')">Veg</button>
+        <button onclick="filterMenu('nonveg')">Non-Veg</button>
+        <button onclick="filterMenu('drinks')">Drinks</button>
+    </div>
+
+    <div id="menu-container" class="menu-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
